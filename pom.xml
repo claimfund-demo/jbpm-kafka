@@ -7,7 +7,18 @@
   <version>1.0.17-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>kafka-jbpm-process</name>
-  <description></description>
+  <description>claim fund demo</description>
+
+  <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>https://nexus-demo-claimfund.us2.eti.io/nexus/content/repositories/claimfund/</url>
+            <snapshots>        
+              <enabled>true</enabled>
+            </snapshots>
+        </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>

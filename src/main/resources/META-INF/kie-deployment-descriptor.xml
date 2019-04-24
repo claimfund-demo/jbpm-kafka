@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.kafka.KafkaWorkItemHandler("localhost:9092", "claimfund", "org.apache.kafka.common.serialization.StringSerializer", "org.apache.kafka.common.serialization.StringSerializer")</identifier>
+            <identifier>new org.jbpm.process.workitem.kafka.KafkaWorkItemHandler("claimfund-messaging-kafka-brokers:9092", "claimfund", "org.apache.kafka.common.serialization.StringSerializer", "org.apache.kafka.common.serialization.StringSerializer")</identifier>
             <parameters/>
             <name>KafkaPublish</name>
         </work-item-handler>

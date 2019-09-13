@@ -12,7 +12,7 @@
   <repositories>
         <repository>
             <id>nexus</id>
-            <url>http://nexus3.demo-claimfund.svc.cluster.local:8081/nexus/content/repositories/claimfund/</url>
+            <url>https://nexus3-demo-claimfund.okd.dev/repository/claimfund/</url>
             <snapshots>        
               <enabled>true</enabled>
             </snapshots>
